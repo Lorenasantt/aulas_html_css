@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form>
+         <!-- input text -->
+         <div>
+            <label for="name">nome de solteira da sua mãe:</label>
+            <input type="text" id="nome" placeholder="digite aqui">
+         </div>
+
+         <!--  input tel -->
+
+         <div>
+            <label for="tel">digite o número de telefone da sua mãe solteira:</label>
+            <input type="tel" id="tel" placeholder="(11) 9999-9999">
+         </div>
+
+         <!-- input date  -->
+         <div>
+            <label for="data">data de aniversário da sua mãe:</label>
+            <input type="date" id="data">
+         </div>
+         <!-- input reset -->
+         <div>
+            <input type="reset" id="reset">
+         </div>
+
+         <!-- input radio -->
+         <div>
+            <p>qual é a melhor animação da adult swin?</p>
+            <div>
+                <input type="radio" id="portais" name="portais">
+                <label for="portais">Portais</label>
+            </div>
+            <div>
+                <input type="radio" id="rick and morty" name="rick and morty">
+                <label for="rick and morty">Rick and Morty</label>
+            </div>
+            <div>
+                <input type="radio" id="wabba labba duub duub" name="wabba labba duub duub">
+                <label for="wabba labba duub duub">Wabba Labba Duub Duub</label>
+            </div>
+            <div>
+                <input type="radio" id="senhor bunda cagada" name="senhor bunda cagada">
+                <label for="senhor bunda cagada">Senhor bunda cagada</label>
+         </div>
+
+
+         <!-- select -->
+
+         <div>
+            <label for="temp">e escolha a melhor temporada:</label>
+            <select name="temp" id="temp">
+                <option disabled selected>Selecione...</option>
+                <option value="temp1">temporada 1</option>
+                <option value="temp3">temporada 3</option>
+                <option value="temp4">temporada 4</option>
+                <option value="temp6">temporada 6</option>
+            </select>
+         </div>
+
+
+        <button>Enviar</button>
+     </form>
+</body>
+</html>
