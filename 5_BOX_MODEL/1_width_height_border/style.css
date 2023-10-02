@@ -1,0 +1,21 @@
+.caixa_width {
+    /*espessura, titulo, cor => width, color, style*/
+   /* border-width: 2px;
+    border-style: solid ;
+    border-color: black;*/
+
+    /*shorthund => vários valores na mesma propriedade*/
+    border: 2px solid rgb(0, 0, 0);
+
+    width:200px;
+}
+
+.img_width {
+    width: 400px;
+}
+
+.caixa_heigth {
+    border: 3px dashed yellow;
+    height: 100px;
+    width:100px;
+}
